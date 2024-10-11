@@ -3,10 +3,6 @@ body {
     text-align: center;
 }
 
-p{
-    font-weight: bold;
-}
-
 .kartyak {
     display: flex;
     flex-wrap: wrap;
@@ -18,12 +14,13 @@ p{
     padding: 20px;
     margin: 10px;
     width: 230px;   
-    height: 150px;
+    height: auto;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 button {    
     padding: 15px;
+    margin-top: 10px;
     background-color: #00a529;
     color: white;
     border: none;
